@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var API_URL = \"https://ogami-api.herokuapp.com\";","map":{"version":3,"sources":["C:/Users/kisho/OneDrive/Desktop/A2Z/client/src/common/defines.js"],"names":["API_URL"],"mappings":"AAAA,OAAO,IAAMA,OAAO,GAAG,iCAAhB","sourcesContent":["export const API_URL = \"https://ogami-api.herokuapp.com\";\n"]},"metadata":{},"sourceType":"module"}
