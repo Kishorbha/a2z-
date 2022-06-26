@@ -20,9 +20,9 @@ const AsideUserMenu: FC = () => {
           {/* begin::User info */}
           <div className='ms-2'>
             <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bolder lh-1'>
-              {currentUser?.first_name} {currentUser?.first_name}
+              Kishor Bhandari
             </a>
-            <span className='text-muted fw-bold d-block fs-7 lh-1'>Python Dev</span>
+            <span className='text-muted fw-bold d-block fs-7 lh-1'>MERN Stack Dev</span>
           </div>
           {/* end::User info */}
         </div>

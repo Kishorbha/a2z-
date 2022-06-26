@@ -15,7 +15,7 @@ export function AsideMenuMain() {
         title={intl.formatMessage({id: 'MENU.DASHBOARD'})}
         fontIcon='bi-app-indicator'
       />
-      <AsideMenuItem
+      {/* <AsideMenuItem
         to='/builder'
         icon='/media/icons/duotune/arrows/arr001.svg'
         title='Layout Builder'
@@ -104,13 +104,13 @@ export function AsideMenuMain() {
         icon='/media/icons/duotune/arrows/arr001.svg'
         title='User management'
         fontIcon='bi-layers'
-      />
+      /> */}
       <div className='menu-item'>
         <div className='menu-content'>
           <div className='separator mx-1 my-4'></div>
         </div>
       </div>
-      <div className='menu-item'>
+      {/* <div className='menu-item'>
         <a
           target='_blank'
           className='menu-link'
@@ -121,7 +121,7 @@ export function AsideMenuMain() {
           </span>
           <span className='menu-title'>Changelog {process.env.REACT_APP_VERSION}</span>
         </a>
-      </div>
+      </div> */}
     </>
   )
 }

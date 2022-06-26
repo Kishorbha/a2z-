@@ -67,7 +67,7 @@ const DashboardWrapper: FC = () => {
     <EnableSidebar>
       <PageTitle description='You’ve got 24 New Sales' breadcrumbs={[]}>
         {/* {intl.formatMessage({id: 'MENU.DASHBOARD'})} */}
-        Hello, Paul
+        Hello, Kishor
       </PageTitle>
       <DashboardPage />
     </EnableSidebar>
